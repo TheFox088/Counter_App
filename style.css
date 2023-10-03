@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(2, 20, 74);
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.card-body{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.h1{
+    font-size: 60px;
+}
+
+.card-btn button{
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+button#increas{
+    background: gray;
+
+}
+
+button#reset{
+    background: gray;
+
+}
+
+button#decreas{
+    background: gray;
+
+}
