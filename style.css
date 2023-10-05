@@ -1,7 +1,8 @@
 body{
     margin: 0;
     height: 100vh;
-    background-color: rgb(2, 20, 74);
+    background: #1C6EA4;
+    background:linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
 
 }
 .container{
@@ -30,17 +31,35 @@ body{
     margin: 0 5px;
 }
 
-button#increas{
-    background: gray;
+button#increas:hover{
+    background: green;
+    color: lightgreen;
 
 }
 
-button#reset{
-    background: gray;
+button#reset:hover{
+    background: pink;
+    color: red;
 
 }
 
-button#decreas{
-    background: gray;
+button#decreas:hover{
+    background: purple;
+    color: salmon;
+
+}
+
+/*responsive opp til desktop*/
+@media(min-height: 1025px){
+
+}
+
+/*responsive opp til tablet*/
+@media(min-height: 770px){
+
+}
+
+/*responsive opp til mobil*/
+@media(min-height: 340px){
 
 }
